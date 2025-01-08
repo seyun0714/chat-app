@@ -26,8 +26,7 @@ function startChat() {
 }
 
 function connectServer(userId){
-    socket = new WebSocket('ws://localhost:8081');
-    //3.35.189.170
+    socket = new WebSocket('ws://15.165.20.185:8081');
 
     socket.onopen = () => {
         console.log('서버와 연결됨');
