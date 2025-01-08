@@ -79,9 +79,9 @@ wss.on('connection', (ws) => {
     });
 });
 
-const HTTP_PORT = 8080;
+const HTTP_PORT = 80;
 server.listen(HTTP_PORT, () => {
-    console.log('HTTP 서버가 8080 포트에서 대기 중...')
+    console.log('HTTP 서버가 80 포트에서 대기 중...')
 })
 
 const WS_PORT = 8081;
